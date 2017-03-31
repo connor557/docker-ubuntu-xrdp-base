@@ -1,6 +1,6 @@
 FROM phusion/baseimage:0.9.16
 
-MAINTAINER josh@kxes.net
+MAINTAINER cobrien@connorcrew.us.to
 
 RUN apt-get update && apt-get install --yes --force-yes --no-install-recommends xorg && apt-get clean && rm -rf /var/lig/apt/lists/* /tmp/* /var/tmp/*
 
